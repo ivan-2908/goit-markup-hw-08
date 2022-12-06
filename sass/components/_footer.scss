@@ -1,0 +1,114 @@
+footer {
+  background-color: var(--secondary-bcg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.wraper {
+  display: flex;
+flex-direction: column;
+align-items: center;
+
+@media screen and (min-width: 1200px){
+  display: flex;
+   align-items: baseline;
+    flex-direction: row;
+}
+}
+.footer-tablet{
+  @media screen and (min-width: 768px){
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px){
+  margin-bottom: 0;
+  }
+}
+
+.address__logo {
+  margin-bottom: 20px;
+  color: var(--white-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.11;
+  text-decoration-line: none;
+  letter-spacing: 0.02em;
+}
+.address__web {
+  color: var(--accent-color);
+}
+.adress li {
+  margin-bottom: 9px;
+}
+.adress li:last-child {
+  margin-bottom: 0;
+}
+.address__info {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration-line: none;
+  font-style: normal;
+}
+.address__contact {
+  color: var(--address-accent-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration-line: none;
+  font-style: normal;
+  transition: color 250ms var(--timing-function);
+}
+.address__contact:hover,
+.address__contact:focus {
+  color: var(--accent-color);
+}
+.footer__social {
+margin-bottom: 60px;
+}
+
+.footer__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer__linc {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--white-color);
+  transition: background-color 250ms var(--timing-function);
+}
+.footer__icon {
+  fill: currentColor;
+}
+.footer__linc:hover,
+.footer__linc:focus {
+  background-color: var(--accent-color);
+}

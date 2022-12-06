@@ -1,0 +1,42 @@
+body {
+  background-color: var(--white-color);
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+ width: 100%;
+}
+.list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.first-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+    }
+}
+.section {
+  padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+     }
+}

@@ -1,0 +1,31 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--white-color);
+  padding-bottom: 28px;
+  
+&__linc {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  color: var(--social-color);
+  transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function);
+}
+
+&__icon {
+  fill: currentColor;
+}
+
+&__linc:hover,
+&__linc:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+}
