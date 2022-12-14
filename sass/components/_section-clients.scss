@@ -10,11 +10,11 @@
     height: 92px;
 
   @media screen and (min-width: 768px) {
-    max-width: 226px;
+    width: 226px;
 }
 
 @media screen and (min-width: 1200px) {
-    max-width: 170px;
+    width: 170px;
     width: calc((100% - 150px) / 6);
 }
 }

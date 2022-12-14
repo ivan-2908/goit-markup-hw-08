@@ -19,7 +19,7 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    gap: 165px;
+    gap: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,12 +43,22 @@ align-items: center;
   line-height: 1.11;
   text-decoration-line: none;
   letter-spacing: 0.02em;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    text-align: start;
+  }
 }
 .address__web {
   color: var(--accent-color);
 }
 .adress li {
   margin-bottom: 9px;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    text-align: start;
+  }
 }
 .adress li:last-child {
   margin-bottom: 0;
@@ -88,6 +98,11 @@ margin-bottom: 60px;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    text-align: start;
+  }
 }
 .footer__list {
   display: flex;
