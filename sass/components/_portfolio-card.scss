@@ -56,7 +56,7 @@
     transition: transform 250ms var(--timing-function);
   }
   
- &__linc:hover,&__linc:focus &__owerlay {
+ &__linc:hover &__owerlay,&__linc:focus &__owerlay {
     transform: translatey(0);
   }
   
